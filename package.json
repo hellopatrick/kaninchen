@@ -1,0 +1,23 @@
+{
+  "name": "kaninchen",
+  "version": "0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Rogers <patrick@donotforget.xyz>",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "dotenv": "^5.0.1",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-node": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  }
+}
