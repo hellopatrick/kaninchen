@@ -16,7 +16,7 @@ async function main() {
 
     const publish = await chan.publish(ex, key, new Buffer(json));
 
-    console.log(" [o] Sent %s:'%s'", key, message);
+    console.log("[>] %s:'%s'", key, message);
   }, 250);
 
   process.once("SIGINT", () => {
