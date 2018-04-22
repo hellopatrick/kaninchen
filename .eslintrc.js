@@ -12,5 +12,6 @@ module.exports = {
     "node/exports-style": ["error", "module.exports"],
     "no-undef": "error",
     "no-console": 0,
+    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
   },
 };
