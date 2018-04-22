@@ -1,16 +1,21 @@
 {
   "name": "kaninchen",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js",
+    "producer-consumer": "node src/producer-consumer.js",
+    "test": "./test.sh"
   },
   "author": "Patrick Rogers <patrick@donotforget.xyz>",
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.5.2",
+    "concurrently": "^3.5.1",
     "dotenv": "^5.0.1",
+    "random-js": "^1.0.8",
     "ulid": "^2.3.0"
   },
   "devDependencies": {
